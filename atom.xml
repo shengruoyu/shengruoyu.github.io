@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-22T12:53:18.793Z</updated>
+  <updated>2015-12-22T12:58:44.885Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,12 +18,12 @@
     <title><![CDATA[Hello]]></title>
     <link href="http://yoursite.com/2015/12/22/first/"/>
     <id>http://yoursite.com/2015/12/22/first/</id>
-    <published>2015-12-22T12:53:48.371Z</published>
-    <updated>2015-12-22T12:53:18.793Z</updated>
-    <content type="html"><![CDATA[<p>������ʹ�� <strong> markdown</strong> �﷨��д�ĵ�һƪ���ͣ���ʵ��Ҳ��֪����������������������ֻ�Ǿ��űȽϺ����ͽ������ˡ�</p>
+    <published>2015-12-22T12:58:44.885Z</published>
+    <updated>2015-12-22T12:58:44.885Z</updated>
+    <content type="html"><![CDATA[<p>这是我使用 <strong> markdown</strong> 语法书写的第一篇博客，其实我也不知道拿这个博客用来做甚，只是觉着比较好玩就建起来了。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>������ʹ�� <strong> markdown</strong> �﷨��д�ĵ�һƪ���ͣ���ʵ��Ҳ��֪����������������������ֻ�Ǿ��űȽϺ����ͽ������ˡ�</p>
+    <![CDATA[<p>这是我使用 <strong> markdown</strong> 语法书写的第一篇博客，其实我也不知道拿这个博客用来做甚，只是觉着比较好玩就建起来了。</p>
 ]]>
     </summary>
     
