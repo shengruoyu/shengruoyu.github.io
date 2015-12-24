@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-24T18:28:55.744Z</updated>
+  <updated>2015-12-24T18:34:40.766Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,21 +18,22 @@
     <title><![CDATA[Christmas Eve]]></title>
     <link href="http://yoursite.com/2015/12/25/xmas_eve/"/>
     <id>http://yoursite.com/2015/12/25/xmas_eve/</id>
-    <published>2015-12-24T18:28:55.744Z</published>
-    <updated>2015-12-24T18:28:55.744Z</updated>
+    <published>2015-12-24T18:34:40.766Z</published>
+    <updated>2015-12-24T18:34:40.766Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/54462e5229fe4a7cf55e9a028ac204cb.jpg" alt="Christmas"></p>
-<p>����һ�����������ղ�������Ȥ���ˡ�</p>
+<p>我是一个对西方节日并不感兴趣的人，</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/54462e5229fe4a7cf55e9a028ac204cb.jpg" alt="Christmas"></p>
-<p>����һ�����������ղ�������Ȥ��]]>
+<p>我是一个对西方节日并不感兴趣的人，</p>
+]]>
     </summary>
     
       <category term="Christmas" scheme="http://yoursite.com/tags/Christmas/"/>
     
       <category term="Single" scheme="http://yoursite.com/tags/Single/"/>
     
-      <category term="ʥ����" scheme="http://yoursite.com/tags/%CA%A5%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/"/>
+      <category term="圣诞节" scheme="http://yoursite.com/tags/%E5%9C%A3%E8%AF%9E%E8%8A%82/"/>
     
   </entry>
   
