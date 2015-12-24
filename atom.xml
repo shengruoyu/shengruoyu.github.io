@@ -3,9 +3,9 @@
   <title><![CDATA[若愚谷]]></title>
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
+  <link href="http://shengruoyu.github.io/"/>
   <updated>2015-12-24T19:02:33.827Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://shengruoyu.github.io/</id>
   
   <author>
     <name><![CDATA[Ruoyu Sheng]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Christmas Eve]]></title>
-    <link href="http://yoursite.com/2015/12/25/xmas_eve/"/>
-    <id>http://yoursite.com/2015/12/25/xmas_eve/</id>
+    <link href="http://shengruoyu.github.io/2015/12/25/xmas_eve/"/>
+    <id>http://shengruoyu.github.io/2015/12/25/xmas_eve/</id>
     <published>2015-12-24T19:02:33.827Z</published>
     <updated>2015-12-24T19:02:33.827Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/54462e5229fe4a7cf55e9a028ac204cb.jpg" alt="Christmas"></p>
@@ -28,18 +28,18 @@
 <p>作为一个比较传统的人，我对西方节日并不感兴趣。当然，我]]>
     </summary>
     
-      <category term="Christmas" scheme="http://yoursite.com/tags/Christmas/"/>
+      <category term="Christmas" scheme="http://shengruoyu.github.io/tags/Christmas/"/>
     
-      <category term="Single" scheme="http://yoursite.com/tags/Single/"/>
+      <category term="Single" scheme="http://shengruoyu.github.io/tags/Single/"/>
     
-      <category term="圣诞节" scheme="http://yoursite.com/tags/%E5%9C%A3%E8%AF%9E%E8%8A%82/"/>
+      <category term="圣诞节" scheme="http://shengruoyu.github.io/tags/%E5%9C%A3%E8%AF%9E%E8%8A%82/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello]]></title>
-    <link href="http://yoursite.com/2015/12/22/first/"/>
-    <id>http://yoursite.com/2015/12/22/first/</id>
+    <link href="http://shengruoyu.github.io/2015/12/22/first/"/>
+    <id>http://shengruoyu.github.io/2015/12/22/first/</id>
     <published>2015-12-22T12:58:44.885Z</published>
     <updated>2015-12-22T12:58:44.885Z</updated>
     <content type="html"><![CDATA[<p>这是我使用 <strong> markdown</strong> 语法书写的第一篇博客，其实我也不知道拿这个博客用来做甚，只是觉着比较好玩就建起来了。</p>
@@ -49,11 +49,11 @@
 ]]>
     </summary>
     
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+      <category term="github" scheme="http://shengruoyu.github.io/tags/github/"/>
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://shengruoyu.github.io/tags/hexo/"/>
     
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+      <category term="markdown" scheme="http://shengruoyu.github.io/tags/markdown/"/>
     
   </entry>
   
