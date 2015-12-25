@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-25T07:20:18.856Z</updated>
+  <updated>2015-12-25T07:22:18.470Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -18,8 +18,8 @@
     <title><![CDATA[利用Github和Hexo搭建个人博客]]></title>
     <link href="http://shengruoyu.github.io/2015/12/25/hexo_blog/"/>
     <id>http://shengruoyu.github.io/2015/12/25/hexo_blog/</id>
-    <published>2015-12-25T07:20:18.856Z</published>
-    <updated>2015-12-25T07:20:18.856Z</updated>
+    <published>2015-12-25T07:22:18.470Z</published>
+    <updated>2015-12-25T07:22:18.470Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/github%2Bhexo.jpg" alt=""></p>
 <h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>以下内容仅适用于Windows平台。</p>
 <p>以往大家搭建客人博客的时候，首选的都是Wordpress平台。但随着Wordpress平台越来越臃肿，轻便、简洁的博客平台成了众多网友的新选择，而Hexo正是其中之一。Hexo可以借助Github提供的免费GithubPage，助您方便地搭建轻量级的个人博客平台。</p>
@@ -45,32 +45,20 @@
 <li>配置Github默认Clone路径，此处可以根据个人喜好随意选取。</li>
 </ol>
 <hr>
-<h3 id="u5B89_u88C5Hexo_u5E76_u521D_u59CB_u5316"><a href="#u5B89_u88C5Hexo_u5E76_u521D_u59CB_u5316" class="headerlink" title="安装Hexo并初始化"></a>安装Hexo并初始化</h3><ol>
-<li>打开Github Shell，输入npm命令，安装Hexo。</li>
-</ol>
+<h3 id="u5B89_u88C5Hexo_u5E76_u521D_u59CB_u5316"><a href="#u5B89_u88C5Hexo_u5E76_u521D_u59CB_u5316" class="headerlink" title="安装Hexo并初始化"></a>安装Hexo并初始化</h3><p>打开Github Shell，输入npm命令，安装Hexo。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-cli -<span class="keyword">g</span></span><br><span class="line">npm <span class="keyword">install</span> hexo <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>根据个人喜欢，在任意位置建立Hexo文件夹（比如：D: \Github\Hexo，并在Github shell内切换至此文件夹。）</li>
-</ol>
+<p>根据个人喜欢，在任意位置建立Hexo文件夹（比如：D: \Github\Hexo，并在Github shell内切换至此文件夹。）</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt; <span class="comment">#初始化Hexo文件夹</span></span><br><span class="line"><span class="built_in">cd</span> Hexo <span class="comment">#进入Hexo文件夹</span></span><br><span class="line">npm install <span class="comment">#安装Hexo</span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>安装Hexo插件</li>
-</ol>
+<p>安装Hexo插件</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-generator-<span class="keyword">index</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">archive</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-<span class="keyword">category</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-tag <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-<span class="keyword">server</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-heroku <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-rsync <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-deployer-openshift <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-renderer-marked@<span class="number">0.2</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-renderer-stylus@<span class="number">0.2</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-feed@<span class="number">1</span> <span class="comment">--save</span></span><br><span class="line">npm <span class="keyword">install</span> hexo-generator-sitemap@<span class="number">1</span> <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
 <hr>
-<h3 id="u914D_u7F6EHexo_u5E76_u90E8_u7F72_u81F3GithubPage"><a href="#u914D_u7F6EHexo_u5E76_u90E8_u7F72_u81F3GithubPage" class="headerlink" title="配置Hexo并部署至GithubPage"></a>配置Hexo并部署至GithubPage</h3><ol>
-<li>Hexo的配置都保存在其根目录下的_config.yml文件中。我们可以打开对其进行配置。</li>
-</ol>
+<h3 id="u914D_u7F6EHexo_u5E76_u90E8_u7F72_u81F3GithubPage"><a href="#u914D_u7F6EHexo_u5E76_u90E8_u7F72_u81F3GithubPage" class="headerlink" title="配置Hexo并部署至GithubPage"></a>配置Hexo并部署至GithubPage</h3><p>Hexo的配置都保存在其根目录下的_config.yml文件中。我们可以打开对其进行配置。</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Hexo Configuration</span></span><br><span class="line"><span class="preprocessor">## Docs: http://hexo.io/docs/configuration.html</span></span><br><span class="line"><span class="preprocessor">## Source: https://github.com/hexojs/hexo/</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Site #网站设置，按照个人喜好填写</span></span><br><span class="line"><span class="label">title:</span>  <span class="preprocessor">#网站标题</span></span><br><span class="line"><span class="label">subtitle:</span> <span class="preprocessor">#网站副标题</span></span><br><span class="line"><span class="label">description:</span> <span class="preprocessor">#网站描述</span></span><br><span class="line"><span class="label">author:</span> <span class="preprocessor">#作者</span></span><br><span class="line"><span class="label">language:</span> <span class="preprocessor">#语言，支持zh-CN</span></span><br><span class="line"><span class="label">timezone:</span> <span class="preprocessor">#时区</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># URL</span></span><br><span class="line"><span class="preprocessor">## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'</span></span><br><span class="line"><span class="label">url:</span> http://githubid.github.io  <span class="preprocessor">#此处请填入github page的域名</span></span><br><span class="line"><span class="label">root:</span> /</span><br><span class="line"><span class="label">permalink:</span> :year/:month/:day/:title/</span><br><span class="line"><span class="label">permalink_defaults:</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Extensions </span></span><br><span class="line"><span class="preprocessor">## Plugins: http://hexo.io/plugins/</span></span><br><span class="line"><span class="preprocessor">## Themes: http://hexo.io/themes/</span></span><br><span class="line"><span class="label">theme:</span> maupassant <span class="preprocessor">#此处可以更改Hexo主题</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Deployment #此处请填入你的github账号信息</span></span><br><span class="line"><span class="preprocessor">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="label">deploy:</span></span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:githubid/githubid.github.io.git <span class="preprocessor">#github page的git地址</span></span><br><span class="line">  branch: master <span class="preprocessor">#git分支</span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>所有配置都编辑并保存好之后，在Github Shell中Hexo目录运行如下代码：</li>
-</ol>
+<p>所有配置都编辑并保存好之后，在Github Shell中Hexo目录运行如下代码：</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> g <span class="comment">#生成本地静态网页文件</span></span><br><span class="line">hexo s <span class="comment">#打开Hexo本地服务器，用于预览</span></span><br></pre></td></tr></table></figure>
 <p>此时，可以打开<a href="127.0.0.1:4000" target="_blank" rel="external">127.0.0.1:4000</a> 进行预览，如预览效果满意，则将Hexo部署至Github。</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> deploy <span class="comment">#将网页部署至GithubPage</span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>新建文章并发表至Blog</li>
-</ol>
+<p>新建文章并发表至Blog</p>
 <p>Hexo可以使用如下命令新建文章：</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> n <span class="comment">#新建文章</span></span><br></pre></td></tr></table></figure>
 <p>但是，这种方式对于Windows平台并不友好。其实，Hexo的文章都保存在\source_posts目录下，作者可以通过在此目录下新建filename.md文件的方式新建文章。</p>
