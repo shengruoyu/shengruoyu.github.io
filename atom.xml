@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-25T07:11:53.144Z</updated>
+  <updated>2015-12-25T07:20:18.856Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -18,10 +18,11 @@
     <title><![CDATA[利用Github和Hexo搭建个人博客]]></title>
     <link href="http://shengruoyu.github.io/2015/12/25/hexo_blog/"/>
     <id>http://shengruoyu.github.io/2015/12/25/hexo_blog/</id>
-    <published>2015-12-25T07:11:53.144Z</published>
-    <updated>2015-12-25T07:11:53.144Z</updated>
+    <published>2015-12-25T07:20:18.856Z</published>
+    <updated>2015-12-25T07:20:18.856Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/github%2Bhexo.jpg" alt=""></p>
-<h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>以下内容仅适用于Windows平台。<br>以往大家搭建客人博客的时候，首选的都是Wordpress平台。但随着Wordpress平台越来越臃肿，轻便、简洁的博客平台成了众多网友的新选择，而Hexo正是其中之一。Hexo可以借助Github提供的免费GithubPage，助您方便地搭建轻量级的个人博客平台。</p>
+<h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>以下内容仅适用于Windows平台。</p>
+<p>以往大家搭建客人博客的时候，首选的都是Wordpress平台。但随着Wordpress平台越来越臃肿，轻便、简洁的博客平台成了众多网友的新选择，而Hexo正是其中之一。Hexo可以借助Github提供的免费GithubPage，助您方便地搭建轻量级的个人博客平台。</p>
 <ul>
 <li><strong>注册Github账号并创建GithubPage</strong></li>
 <li><strong>安装Node.js和Github客户端</strong></li>
@@ -39,7 +40,7 @@
 <h3 id="u5B89_u88C5Node-js_u548CGithub_u5BA2_u6237_u7AEF"><a href="#u5B89_u88C5Node-js_u548CGithub_u5BA2_u6237_u7AEF" class="headerlink" title="安装Node.js和Github客户端"></a>安装Node.js和Github客户端</h3><p><img src="http://78rbxs.com1.z0.glb.clouddn.com/nodejs-green.png" alt=""></p>
 <ol>
 <li>前往<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a> 根据自己操作系统下载Node.js安装包，笔者选择的是v4.2.4 LTS x64。下载完后进行安装。</li>
-<li>检查系统环境变量path下是否有npm路径，如没有请手动添加。<br><img src="http://78rbxs.com1.z0.glb.clouddn.com/Capture.PNG" alt=""></li>
+<li>检查系统环境变量path下是否有npm路径，如没有请手动添加。<img src="http://78rbxs.com1.z0.glb.clouddn.com/Capture.PNG" alt=""></li>
 <li>下载<a href="https://desktop.github.com/" target="_blank" rel="external">Github Windows客户端</a>，安装并登录。</li>
 <li>配置Github默认Clone路径，此处可以根据个人喜好随意选取。</li>
 </ol>
@@ -68,11 +69,16 @@
 <p>此时，可以打开<a href="127.0.0.1:4000" target="_blank" rel="external">127.0.0.1:4000</a> 进行预览，如预览效果满意，则将Hexo部署至Github。</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> deploy <span class="comment">#将网页部署至GithubPage</span></span><br></pre></td></tr></table></figure>
 <ol>
-<li>新建文章并发表至Blog<br>Hexo可以使用如下命令新建文章：</li>
+<li>新建文章并发表至Blog</li>
 </ol>
+<p>Hexo可以使用如下命令新建文章：</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> n <span class="comment">#新建文章</span></span><br></pre></td></tr></table></figure>
-<p>但是，这种方式对于Windows平台并不友好。其实，Hexo的文章都保存在\source_posts目录下，作者可以通过在此目录下新建filename.md文件的方式新建文章。<br>新建文章编写并保存好之后，重新生成本地静态网页并发表至博客，其步骤和上面所述部署Hexo至GithubPage一样：</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> g <span class="comment">#生成本地静态网页文件</span></span><br><span class="line">hexo s <span class="comment">#预览</span></span><br><span class="line">hexo daploy <span class="comment">#将文章发表</span></span><br></pre></td></tr></table></figure>]]></content>
+<p>但是，这种方式对于Windows平台并不友好。其实，Hexo的文章都保存在\source_posts目录下，作者可以通过在此目录下新建filename.md文件的方式新建文章。</p>
+<p>新建文章编写并保存好之后，重新生成本地静态网页并发表至博客，其步骤和上面所述部署Hexo至GithubPage一样：</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> g <span class="comment">#生成本地静态网页文件</span></span><br><span class="line">hexo s <span class="comment">#预览</span></span><br><span class="line">hexo daploy <span class="comment">#将文章发表</span></span><br></pre></td></tr></table></figure>
+<hr>
+<p>### </p>
+]]></content>
     <summary type="html">
     <![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/github%2Bhexo.jpg" alt=""></p>
 <h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerl]]>
