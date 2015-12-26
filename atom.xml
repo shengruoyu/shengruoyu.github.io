@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-25T07:22:18.470Z</updated>
+  <updated>2015-12-26T06:31:23.836Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -15,11 +15,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[远程桌面连接Windows Server]]></title>
+    <link href="http://shengruoyu.github.io/2015/12/26/windows_server/"/>
+    <id>http://shengruoyu.github.io/2015/12/26/windows_server/</id>
+    <published>2015-12-26T06:31:23.836Z</published>
+    <updated>2015-12-26T06:31:23.836Z</updated>
+    <content type="html"><![CDATA[<p>实验室工作站Windows Server已安装完毕，通过Windows远程桌面方式访问方法如下：</p>
+<ol>
+<li>打开开始菜单，搜索<strong>远程桌面连接</strong>或者<strong>Remote Desktop Connection</strong>。</li>
+</ol>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141323.png" alt=""></p>
+<ol>
+<li>打开远程桌面连接，在计算机输入框中输入工作站ip。并点击左下角“<strong>选项</strong>”。</li>
+</ol>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141537.png" alt=""></p>
+<p>如果需要和工作站之间进行文件传输，请打开<strong>本地资源</strong>标签，选择<strong>本地设备和资源</strong>下的更多按钮，勾选本地磁盘驱动器。</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226143016.png" alt=""></p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226143030.png" alt=""></p>
+<ol>
+<li>选择<strong>连接设置</strong>中的<strong>另存为</strong>，将远程桌面连接命名并保存至桌面。</li>
+</ol>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141627.png" alt=""></p>
+<ol>
+<li>双击桌面上已保存的rdp，并勾选<strong>不要再次询问</strong>。</li>
+</ol>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141703.png" alt=""></p>
+<ol>
+<li>输入用户名（Administrator）和密码，并选择<strong>保存凭据</strong>，连接成功。</li>
+</ol>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20151226142742.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>实验室工作站Windows Server已安装完毕，通过Windows远程桌面方式访问方法如下：</p>
+<ol>
+<li>打开开始菜单，搜索<strong>远程桌面连接</strong>或者<strong>Remote Desktop Connection</strong]]>
+    </summary>
+    
+      <category term="remote_desktop" scheme="http://shengruoyu.github.io/tags/remote-desktop/"/>
+    
+      <category term="windows_server" scheme="http://shengruoyu.github.io/tags/windows-server/"/>
+    
+      <category term="workstation" scheme="http://shengruoyu.github.io/tags/workstation/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[利用Github和Hexo搭建个人博客]]></title>
     <link href="http://shengruoyu.github.io/2015/12/25/hexo_blog/"/>
     <id>http://shengruoyu.github.io/2015/12/25/hexo_blog/</id>
-    <published>2015-12-25T07:22:18.470Z</published>
-    <updated>2015-12-25T07:22:18.470Z</updated>
+    <published>2015-12-25T07:26:31.849Z</published>
+    <updated>2015-12-25T07:26:31.849Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/github%2Bhexo.jpg" alt=""></p>
 <h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h3><p>以下内容仅适用于Windows平台。</p>
 <p>以往大家搭建客人博客的时候，首选的都是Wordpress平台。但随着Wordpress平台越来越臃肿，轻便、简洁的博客平台成了众多网友的新选择，而Hexo正是其中之一。Hexo可以借助Github提供的免费GithubPage，助您方便地搭建轻量级的个人博客平台。</p>
@@ -64,8 +109,6 @@
 <p>但是，这种方式对于Windows平台并不友好。其实，Hexo的文章都保存在\source_posts目录下，作者可以通过在此目录下新建filename.md文件的方式新建文章。</p>
 <p>新建文章编写并保存好之后，重新生成本地静态网页并发表至博客，其步骤和上面所述部署Hexo至GithubPage一样：</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> g <span class="comment">#生成本地静态网页文件</span></span><br><span class="line">hexo s <span class="comment">#预览</span></span><br><span class="line">hexo daploy <span class="comment">#将文章发表</span></span><br></pre></td></tr></table></figure>
-<hr>
-<p>### </p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/github%2Bhexo.jpg" alt=""></p>
