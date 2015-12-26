@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-26T06:33:44.295Z</updated>
+  <updated>2015-12-26T07:09:32.100Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -18,14 +18,14 @@
     <title><![CDATA[远程桌面连接Windows Server]]></title>
     <link href="http://shengruoyu.github.io/2015/12/26/windows_server/"/>
     <id>http://shengruoyu.github.io/2015/12/26/windows_server/</id>
-    <published>2015-12-26T06:33:44.295Z</published>
-    <updated>2015-12-26T06:33:44.295Z</updated>
+    <published>2015-12-26T07:09:32.100Z</published>
+    <updated>2015-12-26T07:09:32.100Z</updated>
     <content type="html"><![CDATA[<p>实验室工作站Windows Server已安装完毕，通过Windows远程桌面方式访问方法如下：</p>
 <p>1 打开开始菜单，搜索<strong>远程桌面连接</strong>或者<strong>Remote Desktop Connection</strong>。</p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141323.png" alt=""></p>
 <p>2 打开远程桌面连接，在计算机输入框中输入工作站ip。并点击左下角“<strong>选项</strong>”。</p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141537.png" alt=""></p>
-<p>如果需要和工作站之间进行文件传输，请打开<strong>本地资源</strong>标签，选择<strong>本地设备和资源</strong>下的更多按钮，勾选本地磁盘驱动器。</p>
+<p>如果需要和工作站之间进行文件传输，请打开<strong>本地资源</strong>标签，选择<strong>本地设备和资源</strong>下的<strong>详细信息</strong>按钮，勾选本地磁盘驱动器。</p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226143016.png" alt=""></p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226143030.png" alt=""></p>
 <p>3 选择<strong>连接设置</strong>中的<strong>另存为</strong>，将远程桌面连接命名并保存至桌面。</p>
