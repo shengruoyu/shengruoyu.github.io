@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-26T07:09:32.100Z</updated>
+  <updated>2015-12-26T08:21:46.409Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -18,8 +18,8 @@
     <title><![CDATA[远程桌面连接Windows Server]]></title>
     <link href="http://shengruoyu.github.io/2015/12/26/windows_server/"/>
     <id>http://shengruoyu.github.io/2015/12/26/windows_server/</id>
-    <published>2015-12-26T07:09:32.100Z</published>
-    <updated>2015-12-26T07:09:32.100Z</updated>
+    <published>2015-12-26T08:21:46.409Z</published>
+    <updated>2015-12-26T08:21:46.409Z</updated>
     <content type="html"><![CDATA[<p>实验室工作站Windows Server已安装完毕，通过Windows远程桌面方式访问方法如下：</p>
 <p>1 打开开始菜单，搜索<strong>远程桌面连接</strong>或者<strong>Remote Desktop Connection</strong>。</p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141323.png" alt=""></p>
@@ -34,6 +34,7 @@
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20151226141703.png" alt=""></p>
 <p>5 输入用户名（Administrator）和密码，并选择<strong>保存凭据</strong>，连接成功。</p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20151226142742.png" alt=""></p>
+<p><strong>请各位登陆到服务器后，新建个人账户，以后远程登陆的时候不要使用Administrator账户，使用个人账户登录！！！</strong></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>实验室工作站Windows Server已安装完毕，通过Windows远程桌面方式访问方法如下：</p>
