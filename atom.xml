@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-27T18:52:22.765Z</updated>
+  <updated>2015-12-27T18:54:31.426Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -15,13 +15,12 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title><![CDATA[Ubuntu服务器架设shadowsocks代理并同时监听IPV4/6]]></title>
     <link href="http://shengruoyu.github.io/2015/12/28/shadowsocks/"/>
     <id>http://shengruoyu.github.io/2015/12/28/shadowsocks/</id>
-    <published>2015-12-27T18:52:22.765Z</published>
-    <updated>2015-12-27T18:52:22.765Z</updated>
-    <content type="html"><![CDATA[<p>#title: Ubuntu服务器架设shadowsocks代理并同时监听IPV4/6</p>
-<h2 id="23tags_3A__5Bshadowsocks_2Cgfw_2Cubuntu_2Cvps_5D"><a href="#23tags_3A__5Bshadowsocks_2Cgfw_2Cubuntu_2Cvps_5D" class="headerlink" title="#tags: [shadowsocks,gfw,ubuntu,vps]"></a>#tags: [shadowsocks,gfw,ubuntu,vps]</h2><p>最近Bandwagonhost的VPS快要到期了，于是打算代理服务器转移至Vultr，在转移过程中解决了一个困扰已久的同时监听IPV4/6的问题。</p>
+    <published>2015-12-27T18:54:31.426Z</published>
+    <updated>2015-12-27T18:54:31.426Z</updated>
+    <content type="html"><![CDATA[<p>最近Bandwagonhost的VPS快要到期了，于是打算代理服务器转移至Vultr，在转移过程中解决了一个困扰已久的同时监听IPV4/6的问题。</p>
 <p>其实在VPS上搭建shadowsocks是非常简易方便的，像博主这样的小白按照步骤一步一步走下来也能够成功搭建并开启。由于博主平常使用Ubuntu的机会比较多，因此此篇文章是为基于Ubuntu系统的VPS而写，对于CentOS系统的VPS其实步骤也差不多，只是有些命令上可能稍微有些出入。现在，我就把在Ubuntu搭建Shadowsocks的步骤娓娓道来：</p>
 <h3 id="u5207_u6362_u81F3root_u8D26_u6237"><a href="#u5207_u6362_u81F3root_u8D26_u6237" class="headerlink" title="切换至root账户"></a>切换至root账户</h3><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">su</span></span><br></pre></td></tr></table></figure>
 <h3 id="u5B89_u88C5python-pip_u548Cshadowsocks"><a href="#u5B89_u88C5python-pip_u548Cshadowsocks" class="headerlink" title="安装python-pip和shadowsocks"></a>安装python-pip和shadowsocks</h3><p>执行如下命令：</p>
@@ -34,9 +33,17 @@
 <p>至此，shadowsocks代理已成功搭建并开启，欢迎享受自由的互联网！</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>#title: Ubuntu服务器架设shadowsocks代理并同时监听IPV4/6</p>
-<h2 id="23tags_3A__5Bshadowsocks_2Cgfw_2Cubuntu_2Cvps_5D"><a href="#23tags_3A__5Bshadowso]]>
+    <![CDATA[<p>最近Bandwagonhost的VPS快要到期了，于是打算代理服务器转移至Vultr，在转移过程中解决了一个困扰已久的同时监听IPV4/6的问题。</p>
+<p>其实在VPS上搭建shadowsocks是非常简易方便的，像博主这样的小白按照步骤一步一步走下来也能够成功搭建并]]>
     </summary>
+    
+      <category term="gfw" scheme="http://shengruoyu.github.io/tags/gfw/"/>
+    
+      <category term="shadowsocks" scheme="http://shengruoyu.github.io/tags/shadowsocks/"/>
+    
+      <category term="ubuntu" scheme="http://shengruoyu.github.io/tags/ubuntu/"/>
+    
+      <category term="vps" scheme="http://shengruoyu.github.io/tags/vps/"/>
     
   </entry>
   
