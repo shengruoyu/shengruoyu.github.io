@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-27T17:06:18.446Z</updated>
+  <updated>2015-12-27T18:52:22.765Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -13,6 +13,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://shengruoyu.github.io/2015/12/28/shadowsocks/"/>
+    <id>http://shengruoyu.github.io/2015/12/28/shadowsocks/</id>
+    <published>2015-12-27T18:52:22.765Z</published>
+    <updated>2015-12-27T18:52:22.765Z</updated>
+    <content type="html"><![CDATA[<p>#title: Ubuntu服务器架设shadowsocks代理并同时监听IPV4/6</p>
+<h2 id="23tags_3A__5Bshadowsocks_2Cgfw_2Cubuntu_2Cvps_5D"><a href="#23tags_3A__5Bshadowsocks_2Cgfw_2Cubuntu_2Cvps_5D" class="headerlink" title="#tags: [shadowsocks,gfw,ubuntu,vps]"></a>#tags: [shadowsocks,gfw,ubuntu,vps]</h2><p>最近Bandwagonhost的VPS快要到期了，于是打算代理服务器转移至Vultr，在转移过程中解决了一个困扰已久的同时监听IPV4/6的问题。</p>
+<p>其实在VPS上搭建shadowsocks是非常简易方便的，像博主这样的小白按照步骤一步一步走下来也能够成功搭建并开启。由于博主平常使用Ubuntu的机会比较多，因此此篇文章是为基于Ubuntu系统的VPS而写，对于CentOS系统的VPS其实步骤也差不多，只是有些命令上可能稍微有些出入。现在，我就把在Ubuntu搭建Shadowsocks的步骤娓娓道来：</p>
+<h3 id="u5207_u6362_u81F3root_u8D26_u6237"><a href="#u5207_u6362_u81F3root_u8D26_u6237" class="headerlink" title="切换至root账户"></a>切换至root账户</h3><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">su</span></span><br></pre></td></tr></table></figure>
+<h3 id="u5B89_u88C5python-pip_u548Cshadowsocks"><a href="#u5B89_u88C5python-pip_u548Cshadowsocks" class="headerlink" title="安装python-pip和shadowsocks"></a>安装python-pip和shadowsocks</h3><p>执行如下命令：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">apt-get <span class="operator"><span class="keyword">update</span></span><br><span class="line">apt-<span class="keyword">get</span> <span class="keyword">upgrade</span></span><br><span class="line">apt-<span class="keyword">get</span> <span class="keyword">install</span> python-pip</span><br><span class="line">pip <span class="keyword">install</span> shadowsocks</span></span><br></pre></td></tr></table></figure>
+<h3 id="u65B0_u5EFA_u5E76_u7F16_u8F91shadowsocks_u914D_u7F6E_u6587_u4EF6"><a href="#u65B0_u5EFA_u5E76_u7F16_u8F91shadowsocks_u914D_u7F6E_u6587_u4EF6" class="headerlink" title="新建并编辑shadowsocks配置文件"></a>新建并编辑shadowsocks配置文件</h3><p>由于博主想同时监听IPV4/6，但是按照网上提供的各种版本方法都未成功，只能选择新建两个配置文件并开启两个后台进程的下策。在任意路径下新建两个文件，分别命名为shadowsocksv4.json和shadowsocksv6.json。分别向两个文件写入如下内容：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#shadowsocksv4.json</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="string">"server"</span>:<span class="string">"0.0.0.0"</span>,      <span class="preprocessor"># 服务器IP</span></span><br><span class="line">    <span class="string">"server_port"</span>:<span class="number">98765</span>,     <span class="preprocessor"># ss服务器所使用的端口号，建议改到<span class="number">30000</span>-<span class="number">60000</span></span></span><br><span class="line">    <span class="string">"password"</span>:<span class="string">"password"</span>,   <span class="preprocessor"># ss服务器密码，轻易不要分享</span></span><br><span class="line">    <span class="string">"timeout"</span>:<span class="number">300</span>,           <span class="preprocessor"># 超时时间</span></span><br><span class="line">    <span class="string">"method"</span>:<span class="string">"aes-256-cfb"</span>   <span class="preprocessor"># 加密方式，需要和客户端配合设置</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#shadowsocksv6.json</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="string">"server"</span>:<span class="string">"::"</span>,           <span class="preprocessor"># 服务器IP</span></span><br><span class="line">    <span class="string">"server_port"</span>:<span class="number">98765</span>,     <span class="preprocessor"># ss服务器所使用的端口号，建议改到<span class="number">30000</span>-<span class="number">60000</span></span></span><br><span class="line">    <span class="string">"password"</span>:<span class="string">"password"</span>,   <span class="preprocessor"># ss服务器密码，轻易不要分享</span></span><br><span class="line">    <span class="string">"timeout"</span>:<span class="number">300</span>,           <span class="preprocessor"># 超时时间</span></span><br><span class="line">    <span class="string">"method"</span>:<span class="string">"aes-256-cfb"</span>   <span class="preprocessor"># 加密方式，需要和客户端配合设置</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u5F00_u542Fshadowsocks_u540E_u53F0_u53CC_u8FDB_u7A0B"><a href="#u5F00_u542Fshadowsocks_u540E_u53F0_u53CC_u8FDB_u7A0B" class="headerlink" title="开启shadowsocks后台双进程"></a>开启shadowsocks后台双进程</h3><p>在终端执行如下命令：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssserver -c shadowsocksv4.json -d <span class="operator"><span class="keyword">start</span> <span class="comment">--pid-file ssv4.pid</span></span><br><span class="line">ssserver -<span class="keyword">c</span> shadowsocksv6.<span class="keyword">json</span> -<span class="keyword">d</span> <span class="keyword">start</span> <span class="comment">--pid-file ssv6.pid</span></span></span><br></pre></td></tr></table></figure>
+<p>至此，shadowsocks代理已成功搭建并开启，欢迎享受自由的互联网！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>#title: Ubuntu服务器架设shadowsocks代理并同时监听IPV4/6</p>
+<h2 id="23tags_3A__5Bshadowsocks_2Cgfw_2Cubuntu_2Cvps_5D"><a href="#23tags_3A__5Bshadowso]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[我是难民]]></title>
