@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-30T16:33:36.895Z</updated>
+  <updated>2015-12-27T18:56:25.296Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -13,19 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://shengruoyu.github.io/2015/12/31/smartisan/"/>
-    <id>http://shengruoyu.github.io/2015/12/31/smartisan/</id>
-    <published>2015-12-30T16:33:48.953Z</published>
-    <updated>2015-12-30T16:33:36.895Z</updated>
-    <content type="html"></content>
-    <summary type="html">
-    
-    </summary>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[Ubuntu服务器架设shadowsocks代理并同时监听IPV4和IPV6]]></title>
