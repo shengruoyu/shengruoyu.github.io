@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-31T07:33:49.620Z</updated>
+  <updated>2015-12-31T09:02:10.644Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -13,6 +13,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[树莓派802.1X客户端安装过程]]></title>
+    <link href="http://shengruoyu.github.io/2015/12/31/raspberry/"/>
+    <id>http://shengruoyu.github.io/2015/12/31/raspberry/</id>
+    <published>2015-12-31T09:02:10.644Z</published>
+    <updated>2015-12-31T09:02:10.644Z</updated>
+    <content type="html"><![CDATA[<p>最近入手了一个小玩具——树莓派，想拿来捣鼓点有意思的东西。可是处在教育网的人都知道那可恶的802.1x认证。我也是为了在树莓派上装上802.1x客户端，折腾了好几天的功夫，最后终于在大神的指点下，成功装上并运行成功。对于一个小白用户来说，中间的各种查找资料过程实在痛苦，我就把整个的安装过程共享给大家。</p>
+<p>为了方便，请先给树莓派插入一枚USB无线网卡，并连接Wifi。</p>
+<h3 id="1_u3001_u9996_u5148_uFF0C_u5B89_u88C5_u5F00_u53D1_u5305"><a href="#1_u3001_u9996_u5148_uFF0C_u5B89_u88C5_u5F00_u53D1_u5305" class="headerlink" title="1、首先，安装开发包"></a>1、首先，安装开发包</h3><figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> install libpcap-<span class="built_in">dev</span> libssl-<span class="built_in">dev</span></span><br><span class="line">sudo apt-<span class="built_in">get</span> install pkg-config</span><br></pre></td></tr></table></figure>
+<h3 id="2_u3001_u83B7_u53D6njit8021xclient_u6E90_u7801"><a href="#2_u3001_u83B7_u53D6njit8021xclient_u6E90_u7801" class="headerlink" title="2、获取njit8021xclient源码"></a>2、获取njit8021xclient源码</h3><p><a href="https://github.com/liuqun/njit8021xclient" target="_blank" rel="external">https://github.com/liuqun/njit8021xclient</a></p>
+<p>下载源码压缩包后解压：<a href="https://github.com/liuqun/njit8021xclient/archive/v1.3.0.tar.gz" target="_blank" rel="external">https://github.com/liuqun/njit8021xclient/archive/v1.3.0.tar.gz</a></p>
+<p>或者</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">https</span>://github.com/liuqun/njit8021xclient.git</span><br></pre></td></tr></table></figure>
+<h3 id="3_u3001_u5728_u6E90_u7801_u4E2D_u6240_u6709Makefile-am_u6587_u4EF6_u5F00_u5934_u6DFB_u52A0"><a href="#3_u3001_u5728_u6E90_u7801_u4E2D_u6240_u6709Makefile-am_u6587_u4EF6_u5F00_u5934_u6DFB_u52A0" class="headerlink" title="3、在源码中所有Makefile.am文件开头添加"></a>3、在源码中所有Makefile.am文件开头添加</h3><figure class="highlight fix"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">AUTOMAKE_OPTIONS</span>=<span class="string">subdir-objects</span></span><br></pre></td></tr></table></figure>
+<h3 id="4_u3001_u4FEE_u6539_u6E90_u7801_u76EE_u5F55_u4E0B/src/auth-c_u6587_u4EF6"><a href="#4_u3001_u4FEE_u6539_u6E90_u7801_u76EE_u5F55_u4E0B/src/auth-c_u6587_u4EF6" class="headerlink" title="4、修改源码目录下/src/auth.c文件"></a>4、修改源码目录下/src/auth.c文件</h3><p>const int DefaultTimeout 改为 500</p>
+<p>SendStartPkt和SendLogoffPkt函数中uint8_t packet[16]改为uint8_t packet[30]。</p>
+<h3 id="5_u3001_u5728_u6E90_u7801_u76EE_u5F55_u4E0B_u6267_u884C_u5982_u4E0B_u4EE3_u7801"><a href="#5_u3001_u5728_u6E90_u7801_u76EE_u5F55_u4E0B_u6267_u884C_u5982_u4E0B_u4EE3_u7801" class="headerlink" title="5、在源码目录下执行如下代码"></a>5、在源码目录下执行如下代码</h3><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">autoreconf --<span class="keyword">install</span></span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">make <span class="keyword">install</span></span><br></pre></td></tr></table></figure>
+<h3 id="6_u3001_u7EC8_u7AEF_u6267_u884C"><a href="#6_u3001_u7EC8_u7AEF_u6267_u884C" class="headerlink" title="6、终端执行"></a>6、终端执行</h3><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">njit-client username password <span class="list">(<span class="keyword">eth0</span>)</span></span><br></pre></td></tr></table></figure>
+<p>username为账号，password为密码，eth0为认证所用网卡，如为空则默认eth0。</p>
+<h3 id="7_u3001_u8BA4_u8BC1_u6210_u529F"><a href="#7_u3001_u8BA4_u8BC1_u6210_u529F" class="headerlink" title="7、认证成功"></a>7、认证成功</h3><p>出现如下信息则表示认证成功</p>
+<figure class="highlight prolog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[*] <span class="name">Server</span>: <span class="name">Success</span>.</span><br></pre></td></tr></table></figure>]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近入手了一个小玩具——树莓派，想拿来捣鼓点有意思的东西。可是处在教育网的人都知道那可恶的802.1x认证。我也是为了在树莓派上装上802.1x客户端，折腾了好几天的功夫，最后终于在大神的指点下，成功装上并运行成功。对于一个小白用户来说，中间的各种查找资料过程实在痛苦，我就]]>
+    </summary>
+    
+      <category term="802.1x" scheme="http://shengruoyu.github.io/tags/802-1x/"/>
+    
+      <category term="raspberry" scheme="http://shengruoyu.github.io/tags/raspberry/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hexo添加Google Adsense]]></title>
