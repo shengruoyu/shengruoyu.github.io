@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2015-12-27T18:56:25.296Z</updated>
+  <updated>2015-12-31T07:06:13.756Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -13,6 +13,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hexo添加Google Adsense]]></title>
+    <link href="http://shengruoyu.github.io/2015/12/31/adsense/"/>
+    <id>http://shengruoyu.github.io/2015/12/31/adsense/</id>
+    <published>2015-12-31T07:06:13.756Z</published>
+    <updated>2015-12-31T07:06:13.756Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/google-adsense.jpg" alt=""></p>
+<h2 id="u6EE1_u6EE1_u90FD_u662F_u6CEA_u7684_u524D_u8A00_u90E8_u5206"><a href="#u6EE1_u6EE1_u90FD_u662F_u6CEA_u7684_u524D_u8A00_u90E8_u5206" class="headerlink" title="满满都是泪的前言部分"></a>满满都是泪的前言部分</h2><p>虽然我已经玩博客许多年了，也尝试过不同的博客平台，但是从来没有尝试过在博客中添加广告。昨晚突发奇想，尝试在博客中添加Google Adsense广告，折腾到后半夜终于添加成功。在此，笔者诚心诚意告诫各位：</p>
+<p><strong> 一定要关掉浏览器的AdBlock扩展 </strong></p>
+<p>如果各位没有听从笔者的告诫，后果自负。笔者就因为忘记关掉AdBlock扩展浪费了何止一小时的时间，说起来满满都是泪啊。闲话少说，进入正题：</p>
+<p><strong> 如何在Hexo博客中添加Google Adsense？</strong></p>
+<hr>
+<h2 id="u6CE8_u518CGoogle_Adsense_u8D26_u53F7_u5E76_u7B49_u5230_u5B98_u65B9_u5BA1_u6838"><a href="#u6CE8_u518CGoogle_Adsense_u8D26_u53F7_u5E76_u7B49_u5230_u5B98_u65B9_u5BA1_u6838" class="headerlink" title="注册Google Adsense账号并等到官方审核"></a>注册Google Adsense账号并等到官方审核</h2><p>这个只需要按照Google Adsense的注册页面要求填写相应的信息即可，填写完毕后等待官方的审核通过邮件即可。</p>
+<h2 id="u83B7_u53D6Google_Adsense_u5E7F_u544A_u4EE3_u7801"><a href="#u83B7_u53D6Google_Adsense_u5E7F_u544A_u4EE3_u7801" class="headerlink" title="获取Google Adsense广告代码"></a>获取Google Adsense广告代码</h2><p>账号通过审核后，在Google Adsense页面获取嵌入广告代码。</p>
+<h2 id="u67E5_u770BHexo_u5F53_u524D_u4E3B_u9898_u6587_u4EF6_u5939"><a href="#u67E5_u770BHexo_u5F53_u524D_u4E3B_u9898_u6587_u4EF6_u5939" class="headerlink" title="查看Hexo当前主题文件夹"></a>查看Hexo当前主题文件夹</h2><p>进入/hexo/theme/themename/layout 目录，查看文件类型，如果文件为<em>.ejs的话，那么恭喜你，插入Google Adsense代码将非常简单；如果文件为</em>.jade 的话，插入代码工作将变得稍微复杂一些。</p>
+<h2 id="ejs_u6587_u4EF6_u63D2_u5165Adsense_u4EE3_u7801"><a href="#ejs_u6587_u4EF6_u63D2_u5165Adsense_u4EE3_u7801" class="headerlink" title="ejs文件插入Adsense代码"></a>ejs文件插入Adsense代码</h2><p>如果theme目录下的文件是ejs文件，可以参考博文 <a href="http://lifemaxer.com/2015/02/26/hexo-add-ad/" target="_blank" rel="external">hexo添加百度联盟广告的方法</a>。在此，感谢此博客博主给出全网几乎唯一的Hexo博客添加Google Adsense &amp; 百度联盟广告的详细步骤。</p>
+<h2 id="jade_u6587_u4EF6_u63D2_u5165Adsense_u4EE3_u7801"><a href="#jade_u6587_u4EF6_u63D2_u5165Adsense_u4EE3_u7801" class="headerlink" title="jade文件插入Adsense代码"></a>jade文件插入Adsense代码</h2><h3 id="u4E86_u89E3Jade"><a href="#u4E86_u89E3Jade" class="headerlink" title="了解Jade"></a>了解Jade</h3><p>可是笔者偏偏很不幸，笔者使用的是<a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="external">Maupassant</a> 。主题下的文件是jade文件，可是笔者对jade文件里的内容完全不懂，于是去搜了一下，发现原来Jade是一个模板引擎，以JavaScript实现，可以供Node使用。各位可以去 <a href="https://github.com/pugjs/jade/blob/master/Readme_zh-cn.md" target="_blank" rel="external">Jade_Readme_zh-cn</a> 稍微了解一下Jade的语法，这对于接下来的工作有较大帮助。</p>
+<h3 id="html2jade_u5DE5_u5177"><a href="#html2jade_u5DE5_u5177" class="headerlink" title="html2jade工具"></a>html2jade工具</h3><p>Adsense给出的代码是html格式，但是主题目录下的文件确实jade格式，自然就要想到如何把html转化为jade。当然，对于jade语法超级熟悉的话，可是人工转换，但是有方便的工具，何乐而不用呢？</p>
+<p>在线工具：<a href="http://html2jade.org/" target="_blank" rel="external">Html2jade</a><br>本地工具：<a href="https://github.com/donpark/html2jade" target="_blank" rel="external">html2jade</a></p>
+<p>这两个工具的使用方法都比较简单，在此不再赘述。</p>
+<h3 id="u6DFB_u52A0adsense_u53C2_u6570"><a href="#u6DFB_u52A0adsense_u53C2_u6570" class="headerlink" title="添加adsense参数"></a>添加adsense参数</h3><p>为了方便添加或者删除Adsense广告，笔者在/hexo/themes/maupassant/_config.yml 文件中添加了参数adsense，其值设置为true。如果其值为false，网页则不显示Adsense广告。</p>
+<p>### </p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/google-adsense.jpg" alt=""></p>
+<h2 id="u6EE1_u6EE1_u90FD_u662F_u6CEA_u7684_u524D_u8A00_u]]>
+    </summary>
+    
+      <category term="adsense" scheme="http://shengruoyu.github.io/tags/adsense/"/>
+    
+      <category term="google" scheme="http://shengruoyu.github.io/tags/google/"/>
+    
+      <category term="hexo" scheme="http://shengruoyu.github.io/tags/hexo/"/>
+    
+      <category term="html" scheme="http://shengruoyu.github.io/tags/html/"/>
+    
+      <category term="jade" scheme="http://shengruoyu.github.io/tags/jade/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Ubuntu服务器架设shadowsocks代理并同时监听IPV4和IPV6]]></title>
