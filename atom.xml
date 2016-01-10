@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2016-01-07T18:21:06.174Z</updated>
+  <updated>2016-01-10T12:16:19.000Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -13,6 +13,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[shadowsocks实用教程]]></title>
+    <link href="http://shengruoyu.github.io/2016/01/10/shadowsocks_all/"/>
+    <id>http://shengruoyu.github.io/2016/01/10/shadowsocks_all/</id>
+    <published>2016-01-10T12:17:53.212Z</published>
+    <updated>2016-01-10T12:16:19.000Z</updated>
+    <content type="html"><![CDATA[<p>本教程针对Windows平台。</p>
+<p>##工具</p>
+<p>在Windows平台使用Shadowsocks请自觉卸载所有国产软件，尤其是<strong>360系</strong>的软件，包括但不限于360安全卫士、360免费杀毒、360安全浏览器、360手机助手以及鲁大师等。</p>
+<p>Shadowsocks Windows客户端下载地址：</p>
+<p><a href="https://kiwivm.it7.net/dist/shadowsocks-win-2.3.zip" target="_blank" rel="external">Win7:shadowsocks-win-2.3.zip</a></p>
+<p><a href="https://kiwivm.it7.net/dist/shadowsocks-win-dotnet4.0-2.3.zip" target="_blank" rel="external">Win8+:shadowsocks-win-dotnet4.0-2.3.zip</a></p>
+<p>浏览器：请选择Chrome、Firefox等，杜绝使用诸如百度浏览器、360安全浏览器、淘宝浏览器、UC浏览器、搜狗浏览器等国产诸浏览器。</p>
+<p>Chrome下载地址：<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" rel="external">https://www.google.com/chrome/browser/desktop/index.html</a></p>
+<p>Firefox下载地址：<a href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank" rel="external">https://www.mozilla.org/zh-CN/firefox/new/</a></p>
+<p>##初级教程</p>
+<p>下载完Shadowsocks客户端，解压至任一目录下即可开始进行配置。首次配置请双击shadowsocks.exe文件，打开程序配置窗口。</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E6%8D%95%E8%8E%B7.png" alt=""></p>
+<p>将服务器信息填入窗口各文本框中即可。对着系统右下角通知区域的Shadowsocks图标击右键，选择启用系统代理，根据需要选择系统代理模式，一般选择PAC模式，勾选开机启动，并从GFWList更新PAC。</p>
+<p>自此，即可使用shadowsocks代理。</p>
+<p>##高级教程</p>
+<p>如果你想自定义代理规则的话，有以下几个途径：</p>
+<p>###修改pac文件</p>
+<p>打开shadowsocks所在目录，用文本编辑器修改其中的pac.txt文件。</p>
+<p>在此多说一句，你的服务器配置信息被保存在gui-config.json文件中，可以用文本编辑器打开直接查看、修改。</p>
+<p>###使用chrome/firefox</p>
+<p>可以使用chrome或者firefox浏览器，与其扩展程序配合使用，实现shadowsocks代理的调用以及代理规则的自定义。</p>
+<p>chrome浏览器 + Proxy SwitchyOmega</p>
+<p>请先去Chrome Web Store下载Proxy SwitchyOmega扩展，下载地址：</p>
+<p><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="external">https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif</a></p>
+<p>下载安装完毕后进行Proxy SwitchyOmega配置。</p>
+<p>首先，打开Proxy SwitchyOmega配置页面（可以右键Proxy SwitchyOmega按钮——选项打开，亦可打开<a href="chrome://extensions/" target="_blank" rel="external">chrome://extensions/</a>选择Proxy SwitchyOmega选项）。</p>
+<p>选择新建情景模式：</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-01-10%20%E4%B8%8B%E5%8D%887.48.11.png" alt=""></p>
+<p>情景模式名称可以随意选择。选择<strong>代理服务器</strong>项，点击创建：</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-01-10%20%E4%B8%8B%E5%8D%887.52.33.png" alt=""></p>
+<p>代理协议选择SOCKS5，代理服务器地址为127.0.0.1，代理端口为前面shadowsocks客户端设置的本地端口，默认为1080。设置完毕后，点击左侧<strong>应用选项</strong>按钮。</p>
+<p>此时，chrome浏览器即可直接调用shadowsocks代理，只是此时只能实现全局代理，并不能实现国内外网站的分流。我们可以使用Proxy SwitchyOmega的自动切换模式实现国内外网站的分流。</p>
+<p>再次新建情景模式，选择<strong>自动切换模式</strong>项，点击创建：</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-01-10%20%E4%B8%8B%E5%8D%887.59.11.png" alt=""></p>
+<p>点击添加规则列表：</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-01-10%20%E4%B8%8B%E5%8D%888.00.32.png" alt=""></p>
+<p>规则列表规则的情景模式选择刚才所创建的<strong>代理服务器</strong>，默认情景模式选择<strong>直接连接</strong>，规则列表格式选择<strong>AutoProxy</strong>，规则列表网址填入：<strong><a href="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt" target="_blank" rel="external">https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</a></strong>。</p>
+<p>点击立即更新情景模式，并应用选项，左键单击工具栏Proxy SwitchyOmega按钮，选择所创建的<strong>自动切换模式</strong>的名称，自此实现代理的自动切换。</p>
+<p>Proxy SwitchyOmega在使用时，会自动显示本页面未能加载的资源数目。若出现未能加载资源，可单击Proxy SwitchyOmega按钮，点击高亮的<strong>n个资源未能加载</strong>按钮，对所选中的域名使用代理服务器情景模式即可。如想更加方便地自定义代理规则，可尝试学习通配符与正则表达式。</p>
+<p>Firefox浏览器下的配置与Chrome类似，可以使用FoxyProxy或者AutoProxy扩展，在此不再赘述。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>本教程针对Windows平台。</p>
+<p>##工具</p>
+<p>在Windows平台使用Shadowsocks请自觉卸载所有国产软件，尤其是<strong>360系</strong>的软件，包括但不限于360安全卫士、360免费杀毒、360安全浏览器、360手机助手以]]>
+    </summary>
+    
+      <category term="shadowsocks" scheme="http://shengruoyu.github.io/tags/shadowsocks/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[「技术本身并不可耻」]]></title>
