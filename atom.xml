@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2016-01-10T12:16:19.000Z</updated>
+  <updated>2016-01-10T12:22:14.870Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -18,29 +18,24 @@
     <title><![CDATA[shadowsocks实用教程]]></title>
     <link href="http://shengruoyu.github.io/2016/01/10/shadowsocks_all/"/>
     <id>http://shengruoyu.github.io/2016/01/10/shadowsocks_all/</id>
-    <published>2016-01-10T12:17:53.212Z</published>
-    <updated>2016-01-10T12:16:19.000Z</updated>
+    <published>2016-01-10T12:22:14.870Z</published>
+    <updated>2016-01-10T12:22:14.870Z</updated>
     <content type="html"><![CDATA[<p>本教程针对Windows平台。</p>
-<p>##工具</p>
-<p>在Windows平台使用Shadowsocks请自觉卸载所有国产软件，尤其是<strong>360系</strong>的软件，包括但不限于360安全卫士、360免费杀毒、360安全浏览器、360手机助手以及鲁大师等。</p>
+<h2 id="u5DE5_u5177"><a href="#u5DE5_u5177" class="headerlink" title="工具"></a>工具</h2><p>在Windows平台使用Shadowsocks请自觉卸载所有国产软件，尤其是<strong>360系</strong>的软件，包括但不限于360安全卫士、360免费杀毒、360安全浏览器、360手机助手以及鲁大师等。</p>
 <p>Shadowsocks Windows客户端下载地址：</p>
 <p><a href="https://kiwivm.it7.net/dist/shadowsocks-win-2.3.zip" target="_blank" rel="external">Win7:shadowsocks-win-2.3.zip</a></p>
 <p><a href="https://kiwivm.it7.net/dist/shadowsocks-win-dotnet4.0-2.3.zip" target="_blank" rel="external">Win8+:shadowsocks-win-dotnet4.0-2.3.zip</a></p>
 <p>浏览器：请选择Chrome、Firefox等，杜绝使用诸如百度浏览器、360安全浏览器、淘宝浏览器、UC浏览器、搜狗浏览器等国产诸浏览器。</p>
 <p>Chrome下载地址：<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" rel="external">https://www.google.com/chrome/browser/desktop/index.html</a></p>
 <p>Firefox下载地址：<a href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank" rel="external">https://www.mozilla.org/zh-CN/firefox/new/</a></p>
-<p>##初级教程</p>
-<p>下载完Shadowsocks客户端，解压至任一目录下即可开始进行配置。首次配置请双击shadowsocks.exe文件，打开程序配置窗口。</p>
+<h2 id="u521D_u7EA7_u6559_u7A0B"><a href="#u521D_u7EA7_u6559_u7A0B" class="headerlink" title="初级教程"></a>初级教程</h2><p>下载完Shadowsocks客户端，解压至任一目录下即可开始进行配置。首次配置请双击shadowsocks.exe文件，打开程序配置窗口。</p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E6%8D%95%E8%8E%B7.png" alt=""></p>
 <p>将服务器信息填入窗口各文本框中即可。对着系统右下角通知区域的Shadowsocks图标击右键，选择启用系统代理，根据需要选择系统代理模式，一般选择PAC模式，勾选开机启动，并从GFWList更新PAC。</p>
 <p>自此，即可使用shadowsocks代理。</p>
-<p>##高级教程</p>
-<p>如果你想自定义代理规则的话，有以下几个途径：</p>
-<p>###修改pac文件</p>
-<p>打开shadowsocks所在目录，用文本编辑器修改其中的pac.txt文件。</p>
+<h2 id="u9AD8_u7EA7_u6559_u7A0B"><a href="#u9AD8_u7EA7_u6559_u7A0B" class="headerlink" title="高级教程"></a>高级教程</h2><p>如果你想自定义代理规则的话，有以下几个途径：</p>
+<h3 id="u4FEE_u6539pac_u6587_u4EF6"><a href="#u4FEE_u6539pac_u6587_u4EF6" class="headerlink" title="修改pac文件"></a>修改pac文件</h3><p>打开shadowsocks所在目录，用文本编辑器修改其中的pac.txt文件。</p>
 <p>在此多说一句，你的服务器配置信息被保存在gui-config.json文件中，可以用文本编辑器打开直接查看、修改。</p>
-<p>###使用chrome/firefox</p>
-<p>可以使用chrome或者firefox浏览器，与其扩展程序配合使用，实现shadowsocks代理的调用以及代理规则的自定义。</p>
+<h3 id="u4F7F_u7528chrome/firefox"><a href="#u4F7F_u7528chrome/firefox" class="headerlink" title="使用chrome/firefox"></a>使用chrome/firefox</h3><p>可以使用chrome或者firefox浏览器，与其扩展程序配合使用，实现shadowsocks代理的调用以及代理规则的自定义。</p>
 <p>chrome浏览器 + Proxy SwitchyOmega</p>
 <p>请先去Chrome Web Store下载Proxy SwitchyOmega扩展，下载地址：</p>
 <p><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="external">https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif</a></p>
@@ -63,8 +58,7 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<p>本教程针对Windows平台。</p>
-<p>##工具</p>
-<p>在Windows平台使用Shadowsocks请自觉卸载所有国产软件，尤其是<strong>360系</strong>的软件，包括但不限于360安全卫士、360免费杀毒、360安全浏览器、360手机助手以]]>
+<h2 id="u5DE5_u5177"><a href="#u5DE5_u5177" class="headerlink" title="工具"></a>工具</h2><p>在Windows平台使用Shadowsocks请自觉卸载所]]>
     </summary>
     
       <category term="shadowsocks" scheme="http://shengruoyu.github.io/tags/shadowsocks/"/>
