@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.com/"/>
-  <updated>2016-01-30T09:11:53.048Z</updated>
+  <updated>2016-01-30T19:53:05.953Z</updated>
   <id>http://shengruoyu.com/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[调整Firefox书签栏图标间距]]></title>
+    <link href="http://shengruoyu.com/2016/01/31/Firefox_bookmark/"/>
+    <id>http://shengruoyu.com/2016/01/31/Firefox_bookmark/</id>
+    <published>2016-01-30T19:53:05.953Z</published>
+    <updated>2016-01-30T19:53:05.953Z</updated>
+    <content type="html"><![CDATA[<p>我有一个奇怪的癖好，那就是书签栏里面的书签全部都只有Favicon而无名字。其实仅靠Favicon足以分辨各网站，这样可以大大节省书签栏的空间。但是，这却惹来一个强迫症难以忍受的问题：Windows平台下，Firefox浏览器默认书签间距太小。其实Chrome for Win&amp;Mac和Firefox for Mac等浏览器默认书签间距都刚刚好，只有Firefox for Win的书签间距过小导致书签栏其丑无比。作为一个强迫症，当然不能忍受这种不完美。好歹Firefox作为一个可以深度自定义的浏览器，还是有很方便的解决方案的。解决方案有两种，一个是使用Stylish扩展，一个是使用Userchrome.css文件。前者比较方便，我也已经测试成功；而后者有网友说可以，但是我没有测试成功。因此，我只介绍第一种方法。</p>
+<p>首先，安装Stylish扩展，并重启Firefox浏览器。作为一款21世纪的主流浏览器之一，安装扩展竟然需要重启实在是一件不能忍受的事情😓。</p>
+<p>然后，新建Blank Style，粘贴如下代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#personal-bookmarks</span> <span class="tag">toolbarbutton</span><span class="class">.bookmark-item</span> <span class="rules">&#123;</span><br><span class="line"><span class="rule"><span class="attribute">margin</span>:<span class="value"><span class="number">0px</span> <span class="important">!important</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">padding</span>:<span class="value"><span class="number">7px</span> <span class="important">!important</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<p>其中padding的值可以根据个人喜好进行调整，笔者调整至7px可以使得书签正好布满整个书签栏，这样看起来就舒服多了。</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/Capture.png" alt="调整前"><br><img src="http://78rbxs.com1.z0.glb.clouddn.com/Capture2.png" alt="调整后"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>我有一个奇怪的癖好，那就是书签栏里面的书签全部都只有Favicon而无名字。其实仅靠Favicon足以分辨各网站，这样可以大大节省书签栏的空间。但是，这却惹来一个强迫症难以忍受的问题：Windows平台下，Firefox浏览器默认书签间距太小。其实Chrome for Wi]]>
+    </summary>
+    
+      <category term="bookmark" scheme="http://shengruoyu.com/tags/bookmark/"/>
+    
+      <category term="firefox" scheme="http://shengruoyu.com/tags/firefox/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[博客启用独立域名]]></title>
