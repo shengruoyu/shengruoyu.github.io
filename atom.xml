@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.github.io/"/>
-  <updated>2016-01-10T12:22:14.870Z</updated>
+  <updated>2016-01-30T09:04:33.202Z</updated>
   <id>http://shengruoyu.github.io/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[�������ö�������]]></title>
+    <link href="http://shengruoyu.github.io/2016/01/30/domain/"/>
+    <id>http://shengruoyu.github.io/2016/01/30/domain/</id>
+    <published>2016-01-30T09:04:33.202Z</published>
+    <updated>2016-01-30T09:04:33.202Z</updated>
+    <content type="html"><![CDATA[<p>�����𣬲������ö������� <a href="http://shengruoyu.com" target="_blank" rel="external">http://shengruoyu.com</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>�����𣬲������ö������� <a href="http://shengruoyu.com" target="_blank" rel="external">http://shengruoyu.com</a></p>
+]]>
+    </summary>
+    
+      <category term="blog" scheme="http://shengruoyu.github.io/tags/blog/"/>
+    
+      <category term="dmain" scheme="http://shengruoyu.github.io/tags/dmain/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[shadowsocks实用教程]]></title>
