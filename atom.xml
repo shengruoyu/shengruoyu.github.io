@@ -3,9 +3,9 @@
   <title><![CDATA[若愚谷]]></title>
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://shengruoyu.github.io/"/>
+  <link href="http://shengruoyu.com/"/>
   <updated>2016-01-30T09:04:33.202Z</updated>
-  <id>http://shengruoyu.github.io/</id>
+  <id>http://shengruoyu.com/</id>
   
   <author>
     <name><![CDATA[Ruoyu Sheng]]></name>
@@ -16,27 +16,27 @@
   
   <entry>
     <title><![CDATA[�������ö�������]]></title>
-    <link href="http://shengruoyu.github.io/2016/01/30/domain/"/>
-    <id>http://shengruoyu.github.io/2016/01/30/domain/</id>
+    <link href="http://shengruoyu.com/2016/01/30/domain/"/>
+    <id>http://shengruoyu.com/2016/01/30/domain/</id>
     <published>2016-01-30T09:04:33.202Z</published>
     <updated>2016-01-30T09:04:33.202Z</updated>
-    <content type="html"><![CDATA[<p>�����𣬲������ö������� <a href="http://shengruoyu.com" target="_blank" rel="external">http://shengruoyu.com</a></p>
+    <content type="html"><![CDATA[<p>�����𣬲������ö������� <a href="http://shengruoyu.com">http://shengruoyu.com</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>�����𣬲������ö������� <a href="http://shengruoyu.com" target="_blank" rel="external">http://shengruoyu.com</a></p>
+    <![CDATA[<p>�����𣬲������ö������� <a href="http://shengruoyu.com">http://shengruoyu.com</a></p>
 ]]>
     </summary>
     
-      <category term="blog" scheme="http://shengruoyu.github.io/tags/blog/"/>
+      <category term="blog" scheme="http://shengruoyu.com/tags/blog/"/>
     
-      <category term="dmain" scheme="http://shengruoyu.github.io/tags/dmain/"/>
+      <category term="dmain" scheme="http://shengruoyu.com/tags/dmain/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[shadowsocks实用教程]]></title>
-    <link href="http://shengruoyu.github.io/2016/01/10/shadowsocks_all/"/>
-    <id>http://shengruoyu.github.io/2016/01/10/shadowsocks_all/</id>
+    <link href="http://shengruoyu.com/2016/01/10/shadowsocks_all/"/>
+    <id>http://shengruoyu.com/2016/01/10/shadowsocks_all/</id>
     <published>2016-01-10T12:22:14.870Z</published>
     <updated>2016-01-10T12:22:14.870Z</updated>
     <content type="html"><![CDATA[<p>本教程针对Windows平台。</p>
@@ -80,14 +80,14 @@
 <h2 id="u5DE5_u5177"><a href="#u5DE5_u5177" class="headerlink" title="工具"></a>工具</h2><p>在Windows平台使用Shadowsocks请自觉卸载所]]>
     </summary>
     
-      <category term="shadowsocks" scheme="http://shengruoyu.github.io/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://shengruoyu.com/tags/shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[「技术本身并不可耻」]]></title>
-    <link href="http://shengruoyu.github.io/2016/01/08/kuaibo/"/>
-    <id>http://shengruoyu.github.io/2016/01/08/kuaibo/</id>
+    <link href="http://shengruoyu.com/2016/01/08/kuaibo/"/>
+    <id>http://shengruoyu.com/2016/01/08/kuaibo/</id>
     <published>2016-01-07T18:21:06.174Z</published>
     <updated>2016-01-07T18:21:06.174Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/20130820114942432.png" alt=""></p>
@@ -106,18 +106,18 @@
 <p>昨天，是快播案受审的日子，这个陪伴无数宅男度过寂寞之夜的神器再一次受到了广泛关注。我今天也观看了一段时]]>
     </summary>
     
-      <category term="gfw" scheme="http://shengruoyu.github.io/tags/gfw/"/>
+      <category term="gfw" scheme="http://shengruoyu.com/tags/gfw/"/>
     
-      <category term="internet" scheme="http://shengruoyu.github.io/tags/internet/"/>
+      <category term="internet" scheme="http://shengruoyu.com/tags/internet/"/>
     
-      <category term="kuaibo" scheme="http://shengruoyu.github.io/tags/kuaibo/"/>
+      <category term="kuaibo" scheme="http://shengruoyu.com/tags/kuaibo/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[我为什么反对微信公众号？]]></title>
-    <link href="http://shengruoyu.github.io/2016/01/06/against_wechat/"/>
-    <id>http://shengruoyu.github.io/2016/01/06/against_wechat/</id>
+    <link href="http://shengruoyu.com/2016/01/06/against_wechat/"/>
+    <id>http://shengruoyu.com/2016/01/06/against_wechat/</id>
     <published>2016-01-06T12:05:33.251Z</published>
     <updated>2016-01-06T11:57:20.000Z</updated>
     <content type="html"><![CDATA[<p>最近两年，有越来越多的个人博主或者网站喜欢把自己的文章迁移到微信公众平台，而且这股风气愈演愈烈，大有微信一统整个中文互联网的趋势。但是，大家只看到了微信公众平台给自己文章带来的巨大阅读量与转发量，却从来没有在意过这背后的巨大隐患。</p>
@@ -141,18 +141,18 @@
 <p>微信，作为中国第一的IM，有]]>
     </summary>
     
-      <category term="blog" scheme="http://shengruoyu.github.io/tags/blog/"/>
+      <category term="blog" scheme="http://shengruoyu.com/tags/blog/"/>
     
-      <category term="cn" scheme="http://shengruoyu.github.io/tags/cn/"/>
+      <category term="cn" scheme="http://shengruoyu.com/tags/cn/"/>
     
-      <category term="wechat" scheme="http://shengruoyu.github.io/tags/wechat/"/>
+      <category term="wechat" scheme="http://shengruoyu.com/tags/wechat/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[人，终究敌不过衰老]]></title>
-    <link href="http://shengruoyu.github.io/2016/01/05/wish/"/>
-    <id>http://shengruoyu.github.io/2016/01/05/wish/</id>
+    <link href="http://shengruoyu.com/2016/01/05/wish/"/>
+    <id>http://shengruoyu.com/2016/01/05/wish/</id>
     <published>2016-01-04T17:42:54.884Z</published>
     <updated>2016-01-04T17:42:18.000Z</updated>
     <content type="html"><![CDATA[<p>半个月前，爷爷突发脑血栓入院。原来一个完全正常的健康的老人变成了一个生活无法自理的病人，而这种转变就发生在一瞬间。我在爷爷入院后一周得知此事，当时我并没有料到他的病情会比想象中严重许多，也就不以为意，以为在医院待上几天就可以出院，毕竟平常他的身体是特别硬朗的。可是，事情的变化超出了家人的预料。</p>
@@ -170,8 +170,8 @@
   
   <entry>
     <title><![CDATA[树莓派802.1X客户端安装过程]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/31/raspberry/"/>
-    <id>http://shengruoyu.github.io/2015/12/31/raspberry/</id>
+    <link href="http://shengruoyu.com/2015/12/31/raspberry/"/>
+    <id>http://shengruoyu.com/2015/12/31/raspberry/</id>
     <published>2015-12-31T09:02:10.644Z</published>
     <updated>2015-12-31T09:02:10.644Z</updated>
     <content type="html"><![CDATA[<p>最近入手了一个小玩具——树莓派，想拿来捣鼓点有意思的东西。可是处在教育网的人都知道那可恶的802.1x认证。我也是为了在树莓派上装上802.1x客户端，折腾了好几天的功夫，最后终于在大神的指点下，成功装上并运行成功。对于一个小白用户来说，中间的各种查找资料过程实在痛苦，我就把整个的安装过程共享给大家。</p>
@@ -193,16 +193,16 @@
     <![CDATA[<p>最近入手了一个小玩具——树莓派，想拿来捣鼓点有意思的东西。可是处在教育网的人都知道那可恶的802.1x认证。我也是为了在树莓派上装上802.1x客户端，折腾了好几天的功夫，最后终于在大神的指点下，成功装上并运行成功。对于一个小白用户来说，中间的各种查找资料过程实在痛苦，我就]]>
     </summary>
     
-      <category term="802.1x" scheme="http://shengruoyu.github.io/tags/802-1x/"/>
+      <category term="802.1x" scheme="http://shengruoyu.com/tags/802-1x/"/>
     
-      <category term="raspberry" scheme="http://shengruoyu.github.io/tags/raspberry/"/>
+      <category term="raspberry" scheme="http://shengruoyu.com/tags/raspberry/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hexo添加Google Adsense]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/31/adsense/"/>
-    <id>http://shengruoyu.github.io/2015/12/31/adsense/</id>
+    <link href="http://shengruoyu.com/2015/12/31/adsense/"/>
+    <id>http://shengruoyu.com/2015/12/31/adsense/</id>
     <published>2015-12-31T07:33:49.620Z</published>
     <updated>2015-12-31T07:33:49.620Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/google-adsense.jpg" alt=""></p>
@@ -235,22 +235,22 @@
 <h2 id="u6EE1_u6EE1_u90FD_u662F_u6CEA_u7684_u524D_u8A00_u]]>
     </summary>
     
-      <category term="adsense" scheme="http://shengruoyu.github.io/tags/adsense/"/>
+      <category term="adsense" scheme="http://shengruoyu.com/tags/adsense/"/>
     
-      <category term="google" scheme="http://shengruoyu.github.io/tags/google/"/>
+      <category term="google" scheme="http://shengruoyu.com/tags/google/"/>
     
-      <category term="hexo" scheme="http://shengruoyu.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://shengruoyu.com/tags/hexo/"/>
     
-      <category term="html" scheme="http://shengruoyu.github.io/tags/html/"/>
+      <category term="html" scheme="http://shengruoyu.com/tags/html/"/>
     
-      <category term="jade" scheme="http://shengruoyu.github.io/tags/jade/"/>
+      <category term="jade" scheme="http://shengruoyu.com/tags/jade/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Ubuntu服务器架设shadowsocks代理并同时监听IPV4和IPV6]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/28/shadowsocks/"/>
-    <id>http://shengruoyu.github.io/2015/12/28/shadowsocks/</id>
+    <link href="http://shengruoyu.com/2015/12/28/shadowsocks/"/>
+    <id>http://shengruoyu.com/2015/12/28/shadowsocks/</id>
     <published>2015-12-27T18:56:25.296Z</published>
     <updated>2015-12-27T18:56:25.296Z</updated>
     <content type="html"><![CDATA[<p>最近Bandwagonhost的VPS快要到期了，于是打算代理服务器转移至Vultr，在转移过程中解决了一个困扰已久的同时监听IPV4/6的问题。</p>
@@ -270,20 +270,20 @@
 <p>其实在VPS上搭建shadowsocks是非常简易方便的，像博主这样的小白按照步骤一步一步走下来也能够成功搭建并]]>
     </summary>
     
-      <category term="gfw" scheme="http://shengruoyu.github.io/tags/gfw/"/>
+      <category term="gfw" scheme="http://shengruoyu.com/tags/gfw/"/>
     
-      <category term="shadowsocks" scheme="http://shengruoyu.github.io/tags/shadowsocks/"/>
+      <category term="shadowsocks" scheme="http://shengruoyu.com/tags/shadowsocks/"/>
     
-      <category term="ubuntu" scheme="http://shengruoyu.github.io/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://shengruoyu.com/tags/ubuntu/"/>
     
-      <category term="vps" scheme="http://shengruoyu.github.io/tags/vps/"/>
+      <category term="vps" scheme="http://shengruoyu.com/tags/vps/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[我是难民]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/28/wic/"/>
-    <id>http://shengruoyu.github.io/2015/12/28/wic/</id>
+    <link href="http://shengruoyu.com/2015/12/28/wic/"/>
+    <id>http://shengruoyu.com/2015/12/28/wic/</id>
     <published>2015-12-27T17:06:18.449Z</published>
     <updated>2015-12-27T17:06:18.446Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/72213-72f12d0addd5660c.jpg" alt=""></p>
@@ -308,18 +308,18 @@
 <p>最近几天<del>局域网</del>互联网界最受关注的事情莫过于在乌镇召开的世界互联网大会。]]>
     </summary>
     
-      <category term="gfw" scheme="http://shengruoyu.github.io/tags/gfw/"/>
+      <category term="gfw" scheme="http://shengruoyu.com/tags/gfw/"/>
     
-      <category term="internet" scheme="http://shengruoyu.github.io/tags/internet/"/>
+      <category term="internet" scheme="http://shengruoyu.com/tags/internet/"/>
     
-      <category term="wic" scheme="http://shengruoyu.github.io/tags/wic/"/>
+      <category term="wic" scheme="http://shengruoyu.com/tags/wic/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[远程桌面连接Windows Server]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/28/windows_server/"/>
-    <id>http://shengruoyu.github.io/2015/12/28/windows_server/</id>
+    <link href="http://shengruoyu.com/2015/12/28/windows_server/"/>
+    <id>http://shengruoyu.com/2015/12/28/windows_server/</id>
     <published>2015-12-27T16:57:01.220Z</published>
     <updated>2015-12-27T16:57:01.220Z</updated>
     <content type="html"><![CDATA[<p>实验室工作站Windows Server已安装完毕，通过Windows远程桌面方式访问方法如下：</p>
@@ -345,18 +345,18 @@
 <p>1 打开开始菜单，搜索<strong>远程桌面连接</strong>或者<strong>Remote Desktop Connection</strong>。</]]>
     </summary>
     
-      <category term="remote_desktop" scheme="http://shengruoyu.github.io/tags/remote-desktop/"/>
+      <category term="remote_desktop" scheme="http://shengruoyu.com/tags/remote-desktop/"/>
     
-      <category term="windows_server" scheme="http://shengruoyu.github.io/tags/windows-server/"/>
+      <category term="windows_server" scheme="http://shengruoyu.com/tags/windows-server/"/>
     
-      <category term="workstation" scheme="http://shengruoyu.github.io/tags/workstation/"/>
+      <category term="workstation" scheme="http://shengruoyu.com/tags/workstation/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[毛蛋]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/28/Mao_Tse-tung/"/>
-    <id>http://shengruoyu.github.io/2015/12/28/Mao_Tse-tung/</id>
+    <link href="http://shengruoyu.com/2015/12/28/Mao_Tse-tung/"/>
+    <id>http://shengruoyu.com/2015/12/28/Mao_Tse-tung/</id>
     <published>2015-12-27T16:37:39.169Z</published>
     <updated>2015-12-27T16:37:39.169Z</updated>
     <content type="html"><![CDATA[<p><img src="https://upload.wikimedia.org/wikipedia/zh/7/78/100-2005-b.jpg" alt=""></p>
@@ -373,18 +373,18 @@
 <p>26日是中国最有争议的一个人的诞辰日，有人说他是人民领袖大救星，有人说他是独裁恶魔。他建立了一个国]]>
     </summary>
     
-      <category term="CPC" scheme="http://shengruoyu.github.io/tags/CPC/"/>
+      <category term="CPC" scheme="http://shengruoyu.com/tags/CPC/"/>
     
-      <category term="Mao Tse-tung" scheme="http://shengruoyu.github.io/tags/Mao-Tse-tung/"/>
+      <category term="Mao Tse-tung" scheme="http://shengruoyu.com/tags/Mao-Tse-tung/"/>
     
-      <category term="PRC" scheme="http://shengruoyu.github.io/tags/PRC/"/>
+      <category term="PRC" scheme="http://shengruoyu.com/tags/PRC/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[利用Github和Hexo搭建个人博客]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/25/hexo_blog/"/>
-    <id>http://shengruoyu.github.io/2015/12/25/hexo_blog/</id>
+    <link href="http://shengruoyu.com/2015/12/25/hexo_blog/"/>
+    <id>http://shengruoyu.com/2015/12/25/hexo_blog/</id>
     <published>2015-12-25T07:26:31.849Z</published>
     <updated>2015-12-25T07:26:31.849Z</updated>
     <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/github%2Bhexo.jpg" alt=""></p>
@@ -437,18 +437,18 @@
 <h3 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerl]]>
     </summary>
     
-      <category term="Blogger" scheme="http://shengruoyu.github.io/tags/Blogger/"/>
+      <category term="Blogger" scheme="http://shengruoyu.com/tags/Blogger/"/>
     
-      <category term="Github" scheme="http://shengruoyu.github.io/tags/Github/"/>
+      <category term="Github" scheme="http://shengruoyu.com/tags/Github/"/>
     
-      <category term="Hexo" scheme="http://shengruoyu.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://shengruoyu.com/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello]]></title>
-    <link href="http://shengruoyu.github.io/2015/12/22/first/"/>
-    <id>http://shengruoyu.github.io/2015/12/22/first/</id>
+    <link href="http://shengruoyu.com/2015/12/22/first/"/>
+    <id>http://shengruoyu.com/2015/12/22/first/</id>
     <published>2015-12-22T12:58:44.885Z</published>
     <updated>2015-12-22T12:58:44.885Z</updated>
     <content type="html"><![CDATA[<p>这是我使用 <strong> markdown</strong> 语法书写的第一篇博客，其实我也不知道拿这个博客用来做甚，只是觉着比较好玩就建起来了。</p>
@@ -458,11 +458,11 @@
 ]]>
     </summary>
     
-      <category term="github" scheme="http://shengruoyu.github.io/tags/github/"/>
+      <category term="github" scheme="http://shengruoyu.com/tags/github/"/>
     
-      <category term="hexo" scheme="http://shengruoyu.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://shengruoyu.com/tags/hexo/"/>
     
-      <category term="markdown" scheme="http://shengruoyu.github.io/tags/markdown/"/>
+      <category term="markdown" scheme="http://shengruoyu.com/tags/markdown/"/>
     
   </entry>
   
