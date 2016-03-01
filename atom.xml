@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.com/"/>
-  <updated>2016-01-30T19:53:05.953Z</updated>
+  <updated>2016-03-01T05:33:32.000Z</updated>
   <id>http://shengruoyu.com/</id>
   
   <author>
@@ -13,6 +13,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Android平台远程控制神器TeamviewerQuickSupport]]></title>
+    <link href="http://shengruoyu.com/2016/03/01/Android_Teamviewer/"/>
+    <id>http://shengruoyu.com/2016/03/01/Android_Teamviewer/</id>
+    <published>2016-03-01T05:38:03.677Z</published>
+    <updated>2016-03-01T05:33:32.000Z</updated>
+    <content type="html"><![CDATA[<p>我们日常中经常需要远程控制某些设备，这就要用到一些远程控制软件，而Teamviewer正是这些软件中的佼佼者。</p>
+<p>我们日常遇到的需要远程控制的场合大多数是使用PC或者手机远程控制远程端的PC，但是在某些特殊场合则需要使用PC或者手机远程控制手机。而使用Teamviewer PC/Mac客户端配合Teamviewer QuickSupport APP或者Teamviewer Host APP则能顺利实现PC/Mac端远程控制Android手机。</p>
+<p>笔者在Google Play成功安装Teamviewer QuickSupport APP，但是APP提示远程控制的实现还需要安装Teamviewer QSAddon。APP会在用户点击确定按钮后，在后台自动下载并安装这个APP。但是，此时却出现了问题：笔者尝试了无数次之后，QSAddon APP一直处于未能成功安装的状态。</p>
+<p>借助Google搜索，笔者查询到原来QSAddon需要以System APP的方式安装在Android系统内。那此时就需要借助RootExplorer或者ESFile等Android平台的文件浏览器实现。</p>
+<ul>
+<li>首先，手机必须已经Root，并使RootExplorer/ESFile获得Root权限。</li>
+</ul>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-01%2005.21.00.png" alt=""></p>
+<ul>
+<li>将下载到的apk文件复制到/system/app目录下。可以直接放在此目录下，也可以新建一个文件下，放在子目录下。</li>
+</ul>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-01%2005.24.36.png" alt=""></p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-01%2005.24.41.png" alt=""></p>
+<ul>
+<li>修改文件夹权限为rwx r-x r-x（如直接放在/system/app下则跳过此步骤）</li>
+</ul>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-01%2005.24.55.png" alt=""></p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-01%2005.25.03.png" alt=""></p>
+<ul>
+<li>修改文件权限为rw- r– r–</li>
+</ul>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-01%2005.25.23.png" alt=""></p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-01%2005.25.23.png" alt=""></p>
+<ul>
+<li>重启设备</li>
+</ul>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-01%20%E4%B8%8B%E5%8D%881.32.02.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>我们日常中经常需要远程控制某些设备，这就要用到一些远程控制软件，而Teamviewer正是这些软件中的佼佼者。</p>
+<p>我们日常遇到的需要远程控制的场合大多数是使用PC或者手机远程控制远程端的PC，但是在某些特殊场合则需要使用PC或者手机远程控制手机。而使用Teamv]]>
+    </summary>
+    
+      <category term="Android" scheme="http://shengruoyu.com/tags/Android/"/>
+    
+      <category term="Teamviewer" scheme="http://shengruoyu.com/tags/Teamviewer/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[调整Firefox书签栏图标间距]]></title>
