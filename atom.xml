@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.com/"/>
-  <updated>2016-03-01T05:33:32.000Z</updated>
+  <updated>2016-03-03T15:43:34.000Z</updated>
   <id>http://shengruoyu.com/</id>
   
   <author>
@@ -13,6 +13,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[永不消失的朋友圈]]></title>
+    <link href="http://shengruoyu.com/2016/03/03/wechat_moment/"/>
+    <id>http://shengruoyu.com/2016/03/03/wechat_moment/</id>
+    <published>2016-03-03T15:48:09.500Z</published>
+    <updated>2016-03-03T15:43:34.000Z</updated>
+    <content type="html"><![CDATA[<p>前两天把入手的一加刷了CM12，又安装了xposed framework，耍起来甚是欢乐。xposed框架里有一款针对微信的神器模块：WechatUnrecalled，此模块可以阅读撤回的聊天信息和朋友圈回复。于是，靠着此神器我发现了一个怪异的现象：有些未读的却已被删除的朋友圈照片，我依然可以正常加载阅读。我顿时感觉到，腾讯是不是没有在服务器端删除这些照片？</p>
+<p>此时应该果断祭上神器Charles抓包嘛，毕竟朋友圈的图片全是明文传输，抓包还是非常简单的。设置好Charles http代理，抓取了朋友圈的某张图片:</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-03%20%E4%B8%8B%E5%8D%8811.10.29.png" alt=""></p>
+<p>在抓包完毕并获得图片URL之后，删除此朋友圈，图片URL仍可访问。由于朋友圈使用的是webp格式的图片，可能只有Blink内核浏览器（即chrome或chromium套壳浏览器）支持，其他浏览器会弹出保存文件的提示。在笔者写完这篇文章，即抓包半小时后，此链接仍然可以正常访问。</p>
+<p>🐧家太令人桑心了，有这么多空间保存朋友圈被删除的图片，干嘛不推出聊天记录实时同步功能呢？劳资既然用微信了，已经不在意安全问题了/(ㄒoㄒ)/~~</p>
+<p>最后附上此图片URL，看看什么时候会失效：<a href="http://mmsns.qpic.cn/mmsns/0pygn8iaZdEexRZpvV3gmB3kLmk4uzoptMOtWfCOI1cLbz5LY7EfAzM03oFib2ysTTmWgbFcXzc8c/0?tp=webp" target="_blank" rel="external">http://mmsns.qpic.cn/mmsns/0pygn8iaZdEexRZpvV3gmB3kLmk4uzoptMOtWfCOI1cLbz5LY7EfAzM03oFib2ysTTmWgbFcXzc8c/0?tp=webp</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前两天把入手的一加刷了CM12，又安装了xposed framework，耍起来甚是欢乐。xposed框架里有一款针对微信的神器模块：WechatUnrecalled，此模块可以阅读撤回的聊天信息和朋友圈回复。于是，靠着此神器我发现了一个怪异的现象：有些未读的却已被删除的朋]]>
+    </summary>
+    
+      <category term="internet" scheme="http://shengruoyu.com/tags/internet/"/>
+    
+      <category term="wechat" scheme="http://shengruoyu.com/tags/wechat/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Android平台远程控制神器TeamviewerQuickSupport]]></title>
