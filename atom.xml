@@ -4,7 +4,7 @@
   <subtitle><![CDATA[狗窝]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://shengruoyu.com/"/>
-  <updated>2016-03-11T17:00:59.000Z</updated>
+  <updated>2016-03-09T18:21:58.787Z</updated>
   <id>http://shengruoyu.com/</id>
   
   <author>
@@ -15,39 +15,10 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[VR初体验]]></title>
-    <link href="http://shengruoyu.com/2016/03/12/cardboard/"/>
-    <id>http://shengruoyu.com/2016/03/12/cardboard/</id>
-    <published>2016-03-11T17:03:26.793Z</published>
-    <updated>2016-03-11T17:00:59.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-11%2012.55.24.jpg" alt=""></p>
-<p>Cardboard是Google公司在2014年推出的廉价VR设备，廉价到仅有几块硬纸板、两个凸透镜和两块磁铁构成。虽然已经如此廉价，但是它推出至今1年多的时间，我也没有体验上。正好前两天，<a href="http://www.smzdm.com" target="_blank" rel="external">色魔张大妈</a>上有某天猫商家推出3元钱包邮的产品，于是我就抱着少吃一顿早饭的想法果断下单。岂料快递签收并给商家五星好评之后，商家又返还2元，简直不能更划算。</p>
-<p>收到货之后，第一时间拆箱，并按照说明组装。组装之后如前图所示，还是蛮可爱的。其实，喜欢DIY的话，这个东西也可以自己制作，非常简单，<a href="https://www.google.com/get/cardboard/" target="_blank" rel="external">Cardboard官方网站</a>有详细的制作说明和图纸。</p>
-<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/FireShot%20Capture%206%20-%20%E8%8E%B7%E5%8F%96%20Cardboard%20%E2%80%93%20Google_%20-%20https___www.google.com_intl_zh-CN_A.png" alt=""></p>
-<p>至此，我靠着这么一个廉价的小物件，打开了VR的大门，初次感受到了VR的体验。</p>
-<p>我从Google Play下载了官方的Cardboard应用，并一并下载了多款支持Cardboard的VR应用。个人感觉其中的 <a href="https://play.google.com/store/apps/details?id=com.drashvr.titansofspacecb&amp;hl=en" target="_blank" rel="external">Titans of Space ® Cardboard VR</a> 是其中做的非常赞的。</p>
-<p>玩VR要的就是一种身临其境的感觉，而一番体验下来我觉着在玩街景的时候这种感觉是最棒的，毕竟用Cardboard玩游戏还是相当不方便的。我在多年以前就曾经在济南的某些地方，利用Streetview拍过一些全景相片，当时在电脑上看起来感觉超级棒，现在配合上这么一个小东西，直接体验飞跃。你站在原地不动，就像到了现场一样，随着身体的转动，眼前的景象很自然地移动，如果是Google Maps街景的话，还可以像如真人般在街道漫步，只是由于伟大的女友墙的存在，让这种体验并不完美。</p>
-<p>我和舍友拿着这么一个小东西，身临其境般地逛了许多地方。只是有一点，长时间使用这个设备后眼镜会感觉比较劳累，建议不要长时间把玩。</p>
-<p>或许，我应该去U2B上找一些3D电影尝试一下体验如何。。。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-11%2012.55.24.jpg" alt=""></p>
-<p>Cardboard是Google公司在2014年推出的廉价VR设备，廉价到仅有几块硬纸板、两个]]>
-    </summary>
-    
-      <category term="cardboard" scheme="http://shengruoyu.com/tags/cardboard/"/>
-    
-      <category term="google" scheme="http://shengruoyu.com/tags/google/"/>
-    
-      <category term="vr" scheme="http://shengruoyu.com/tags/vr/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[至少现在，比AI更令人担心的是人类本身]]></title>
-    <link href="http://shengruoyu.com/2016/03/10/ai&1984/"/>
-    <id>http://shengruoyu.com/2016/03/10/ai&1984/</id>
-    <published>2016-03-09T18:21:58.787Z</published>
+    <link href="http://shengruoyu.com/2016/03/12/ai_1984/"/>
+    <id>http://shengruoyu.com/2016/03/12/ai_1984/</id>
+    <published>2016-03-11T18:13:07.470Z</published>
     <updated>2016-03-09T18:21:58.787Z</updated>
     <content type="html"><![CDATA[<p>如果没有这场比赛，我大概至今也不会去关注围棋这项对我来说超级陌生的运动。而Google及其下的DeepMind可是借助AlphaGo赚足了世人的眼球，在战胜欧洲围棋冠军之后又向世界级的围棋冠军选手李世石发起挑战。</p>
 <p><img src="http://78rbxs.com1.z0.glb.clouddn.com/75_6147761d_a31d_2581_65be_ac9191f7195c_1.jpg" alt=""></p>
@@ -79,6 +50,35 @@
       <category term="1984" scheme="http://shengruoyu.com/tags/1984/"/>
     
       <category term="AI" scheme="http://shengruoyu.com/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[VR初体验]]></title>
+    <link href="http://shengruoyu.com/2016/03/12/cardboard/"/>
+    <id>http://shengruoyu.com/2016/03/12/cardboard/</id>
+    <published>2016-03-11T17:03:26.793Z</published>
+    <updated>2016-03-11T17:00:59.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-11%2012.55.24.jpg" alt=""></p>
+<p>Cardboard是Google公司在2014年推出的廉价VR设备，廉价到仅有几块硬纸板、两个凸透镜和两块磁铁构成。虽然已经如此廉价，但是它推出至今1年多的时间，我也没有体验上。正好前两天，<a href="http://www.smzdm.com" target="_blank" rel="external">色魔张大妈</a>上有某天猫商家推出3元钱包邮的产品，于是我就抱着少吃一顿早饭的想法果断下单。岂料快递签收并给商家五星好评之后，商家又返还2元，简直不能更划算。</p>
+<p>收到货之后，第一时间拆箱，并按照说明组装。组装之后如前图所示，还是蛮可爱的。其实，喜欢DIY的话，这个东西也可以自己制作，非常简单，<a href="https://www.google.com/get/cardboard/" target="_blank" rel="external">Cardboard官方网站</a>有详细的制作说明和图纸。</p>
+<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/FireShot%20Capture%206%20-%20%E8%8E%B7%E5%8F%96%20Cardboard%20%E2%80%93%20Google_%20-%20https___www.google.com_intl_zh-CN_A.png" alt=""></p>
+<p>至此，我靠着这么一个廉价的小物件，打开了VR的大门，初次感受到了VR的体验。</p>
+<p>我从Google Play下载了官方的Cardboard应用，并一并下载了多款支持Cardboard的VR应用。个人感觉其中的 <a href="https://play.google.com/store/apps/details?id=com.drashvr.titansofspacecb&amp;hl=en" target="_blank" rel="external">Titans of Space ® Cardboard VR</a> 是其中做的非常赞的。</p>
+<p>玩VR要的就是一种身临其境的感觉，而一番体验下来我觉着在玩街景的时候这种感觉是最棒的，毕竟用Cardboard玩游戏还是相当不方便的。我在多年以前就曾经在济南的某些地方，利用Streetview拍过一些全景相片，当时在电脑上看起来感觉超级棒，现在配合上这么一个小东西，直接体验飞跃。你站在原地不动，就像到了现场一样，随着身体的转动，眼前的景象很自然地移动，如果是Google Maps街景的话，还可以像如真人般在街道漫步，只是由于伟大的女友墙的存在，让这种体验并不完美。</p>
+<p>我和舍友拿着这么一个小东西，身临其境般地逛了许多地方。只是有一点，长时间使用这个设备后眼镜会感觉比较劳累，建议不要长时间把玩。</p>
+<p>或许，我应该去U2B上找一些3D电影尝试一下体验如何。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://78rbxs.com1.z0.glb.clouddn.com/2016-03-11%2012.55.24.jpg" alt=""></p>
+<p>Cardboard是Google公司在2014年推出的廉价VR设备，廉价到仅有几块硬纸板、两个]]>
+    </summary>
+    
+      <category term="cardboard" scheme="http://shengruoyu.com/tags/cardboard/"/>
+    
+      <category term="google" scheme="http://shengruoyu.com/tags/google/"/>
+    
+      <category term="vr" scheme="http://shengruoyu.com/tags/vr/"/>
     
   </entry>
   
